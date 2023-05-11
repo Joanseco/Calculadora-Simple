@@ -17,6 +17,7 @@
     background: #3a4452;
     padding: 20px;
     border-radius: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -54,3 +55,14 @@ form input.igual{
 form input.operator{
     color: #33ffd8 ;
 }
+
+@media only screen and (max-width: 600px) {
+    .calculator form input {
+      font-size: 30px;
+      margin: 5px;
+    }
+  
+    form input.igual {
+      font-size: 24px;
+    }
+  }
